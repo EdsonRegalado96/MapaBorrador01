@@ -1,0 +1,289 @@
+{
+  "CAMERA": "ORTHO",
+  "LAYERS": [
+    {
+      "geomType": 1,
+      "layerId": "Plantas_Potabilizadoras_7e0ed9b1_a41e_4221_b740_db1fe78fa9d5",
+      "name": "Plantas_Potabilizadoras",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Box",
+        "comboBox_altitudeMode": "Tijuana_LIDAR_5m_2012_49c4666f_96d8_447d_a51f_1d3ee5f78865",
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "3540",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "50",
+          "type": 1
+        },
+        "styleWidget3": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "50",
+          "type": 1
+        },
+        "styleWidget4": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "20",
+          "type": 1
+        },
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 1,
+      "layerId": "Tanques_772b58fe_c519_4fe9_87d7_9c38da433aa5",
+      "name": "Tanques",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": 3,
+        "comboBox_ObjectType": "Box",
+        "comboBox_altitudeMode": "Tijuana_LIDAR_5m_2012_49c4666f_96d8_447d_a51f_1d3ee5f78865",
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "0.2",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "\"Ancho_Tanq\"",
+          "type": 1
+        },
+        "styleWidget3": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "\"Largo_Tanq\"",
+          "type": 1
+        },
+        "styleWidget4": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "\"Altura_Tan\"",
+          "type": 1
+        },
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "Area_Cobertura_057f989d_d167_4e51_afa8_f2699994a62f",
+      "name": "Area_Cobertura",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Acueductos_84ff83f6_8fe9_49f1_ba69_92cc21dd6c59",
+      "name": "Acueductos",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Pipe",
+        "comboBox_altitudeMode": "Tijuana_LIDAR_5m_2012_49c4666f_96d8_447d_a51f_1d3ee5f78865",
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "\"Diám_in\" * 0.0254",
+          "type": 1
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "Presas_92e4cc51_061a_43ba_961b_e5b3abb2c941",
+      "name": "Presas",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "3540",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {},
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Tijuana_LIDAR_5m_2012_49c4666f_96d8_447d_a51f_1d3ee5f78865",
+      "name": "Tijuana_LIDAR_5m_2012",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": true,
+        "checkBox_Shading": false,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Color": "0xffe201",
+        "comboBox_ClipLayer": "Area_Cobertura_057f989d_d167_4e51_afa8_f2699994a62f",
+        "comboBox_TextureSize": 1024,
+        "horizontalSlider_DEMSize": 3,
+        "layerImageIds": [
+          "Tijuana_LIDAR_5m_2012_49c4666f_96d8_447d_a51f_1d3ee5f78865"
+        ],
+        "lineEdit_ImageFile": "",
+        "radioButton_LayerImage": true,
+        "spinBox_Opacity": 30,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_EdgeColor": "0x000000",
+        "toolButton_SideColor": "0xccbbaa",
+        "toolButton_WireframeColor": "0x000000"
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "Cobertura_AP_Tanques_e6e2e777_9473_4f47_b222_57c730000b1d",
+        "comboBox_TextureSize": 1024,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_EdgeColor": "0x000000",
+        "toolButton_SideColor": "0xccbbaa",
+        "toolButton_WireframeColor": "0x000000"
+      },
+      "visible": false
+    }
+  ],
+  "SCENE": {
+    "checkBox_FixAspectRatio": false,
+    "checkBox_Outline": false,
+    "checkBox_autoZShift": false,
+    "colorButton_Color": "0x000000",
+    "comboBox_MaterialType": 0,
+    "lineEdit_BaseSize": "100",
+    "lineEdit_CenterX": "497966.2868612803",
+    "lineEdit_CenterY": "3585271.0216203886",
+    "lineEdit_Height": "50482.22687673569",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "70813.5975515307",
+    "lineEdit_zFactor": "1",
+    "lineEdit_zShift": "0",
+    "radioButton_FixedExtent": true
+  },
+  "WIDGETS": {
+    "Label": {
+      "Footer": "",
+      "Header": "Maqueta Urbana de Infraestructura - Tijuana"
+    },
+    "NorthArrow": {
+      "color": "0x000000",
+      "visible": true
+    }
+  }
+}
